@@ -2,7 +2,6 @@ import React, { Component } from 'react';
 import './App.css';
 
 import Axios from 'axios';
-import { NavLink, Route } from 'react-router-dom';
 
 import Users from './components/Users.js';
 

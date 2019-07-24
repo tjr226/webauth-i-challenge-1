@@ -26,7 +26,7 @@ Use `Node.js`, `Express` and `Knex` to build an API that provides **Register** a
 
 ## Stretch Problem
 
-- [ ] Write a piece of **global** middleware that ensures a user is logged in when accessing _any_ route prefixed by `/api/restricted/`. For instance, `/api/restricted/something`, `/api/restricted/other`, and `/api/restricted/a` should all be protected by the middleware; only logged in users should be able to access these routes.
+- [ x ] Write a piece of **global** middleware that ensures a user is logged in when accessing _any_ route prefixed by `/api/restricted/`. For instance, `/api/restricted/something`, `/api/restricted/other`, and `/api/restricted/a` should all be protected by the middleware; only logged in users should be able to access these routes.
     - [ x ] FIRST DAY - completed by using headers
-    - [ ] SECOND DAY -
-- [ ] Build a React application that implements components to register, login and view a list of users. Gotta keep sharpening your React skills.
+    - [ x ] SECOND DAY - fixed to check cookies
+- [ partial - only view ] Build a React application that implements components to register, login and view a list of users. Gotta keep sharpening your React skills.
